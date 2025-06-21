@@ -1,5 +1,5 @@
 {
 	"$schema": "https://openapi.vercel.sh/vercel.json",
-	"installCommand": "dnf install -y fontconfig freetype && npm install",
-	"buildCommand": "dnf install -y fontconfig freetype && npm install"
+	"installCommand": "dnf install -y fontconfig freetype fontconfig-devel freetype-devel",
+	"buildCommand": "dnf install -y fontconfig freetype fontconfig-devel freetype-devel"
 }
